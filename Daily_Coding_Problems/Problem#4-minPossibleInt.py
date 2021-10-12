@@ -5,6 +5,8 @@ linear time and constant space. In other words, find the lowest positive
 integer that does not exist in the array. The array can contain
 duplicates and negative numbers as well.
 '''
+
+#function that returns the smallest possible int not in the array
 def returnMin(numList):
     accum = 1
     while accum != 0:
