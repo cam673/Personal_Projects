@@ -10,7 +10,7 @@ original array except the one at i.
 //multiply the product of all numbers exept at index i and store it at i
 void productArray(int *firstList, int *secondList, int size)
 {
-    //go through each element of the original list
+    //go through each element of the second list
     for(int i = 0; i < size; i++)
     {
         //reset accumulator each iteration
